@@ -32,17 +32,17 @@ public class DropdownwithAlphabets {
 		System.out.println(select);
 		System.out.println("month is selected");
 		
-		//List as=new ArrayList();
+		List as=new ArrayList();
 	
 		List<WebElement> alpha = select.getOptions();
 		System.out.println("alpha "+alpha.size());
 		
-/*for(WebElement d:alpha) {
+for(WebElement d:alpha) {
 			System.out.println(d.getText());
 			as.add(d.getText());
 		}
         Collections.sort(as);
-        System.out.println("aplhabets order"+as);*/
+        System.out.println("aplhabets order"+as);
 		//for(int i=0;i<alpha.size();i++) {
 			// select.selectByIndex(i);
 				}

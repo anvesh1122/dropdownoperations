@@ -1,4 +1,4 @@
-package DropDownChrome;
+ package DropDownChrome;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,8 +23,6 @@ public class TestDDpractice {
 	 
 	 WebElement product = driver.findElement(By.id("products"));
 	 System.out.println("product is passed");
-	 
-	
 	 
 	 //products related
 	 Select select = new Select(product);
